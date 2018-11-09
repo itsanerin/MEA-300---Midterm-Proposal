@@ -1,0 +1,115 @@
+body {
+    background: url(../images/home-background.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+/* Root navbar code from  */
+
+.nav ul {
+    *zoom: 1;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    background: #070707;
+}
+
+.nav ul:before,
+.nav ul:after {
+    content: "";
+    display: grid;
+}
+
+.nav ul:after {
+    clear: both;
+}
+
+.nav ul > li {
+    float: left;
+    position: relative;
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    min-width: 174px;
+}
+
+.nav a {
+    display: block;
+    padding: 15px 20px;
+    line-height: 1.2em;
+    color: #fff;
+    border-left: 1px solid #595959;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    background: #595959;
+}
+
+.nav li ul {
+    background: #070707;
+    width: 100%;
+    margin-top: 13px;
+}
+
+.nav li ul li {
+    width: 250px;
+}
+
+.nav li ul a {
+    border: 1px solid #595959;
+}
+
+.nav li ul a:hover {
+    background: #595959;
+}
+
+.nav li ul {
+    position: absolute;
+    left: 0;
+    top: 36px;
+    z-index: 1;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transform: perspective(400) rotate3d(1, 0, 0, -90deg);
+    -webkit-transform-origin: 50% 0;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+}
+
+.nav ul > li:hover ul {
+    max-height: 1000px;
+    -webkit-transform: perspective(400) rotate3d(0, 0, 0, 0);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.text,
+.container-fluid img {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.row,
+.col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px
+}
+
+.text {
+    background-color: #f1f1e9;
+    text-indent: 2em;
+    line-height: 1.5;
+    padding: .5em;
+}
