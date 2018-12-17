@@ -107,7 +107,7 @@ p,
     margin: 10px
 }
 
-p {
+p, .text {
     background-color: #f1f1e9;
     text-indent: 2em;
     line-height: 1.5;
