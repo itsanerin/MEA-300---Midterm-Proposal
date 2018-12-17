@@ -95,7 +95,7 @@ h2 {
     height: auto;
 }
 
-.text,
+p,
 .container-fluid img {
     box-shadow: 10px 10px 5px grey;
 }
@@ -107,7 +107,7 @@ h2 {
     margin: 10px
 }
 
-.text {
+p {
     background-color: #f1f1e9;
     text-indent: 2em;
     line-height: 1.5;
