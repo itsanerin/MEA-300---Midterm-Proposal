@@ -78,8 +78,7 @@ nav a:hover, a.dropdown-toggle:hover {
     height: auto;
 }
 
-p,
-.container-fluid img {
+.container-fluid img, .text {
     box-shadow: 10px 10px 5px grey;
 }
 
@@ -93,7 +92,7 @@ p,
 p,
 .text {
     background-color: #f1f1e9;
-    text-indent: 2em;
     line-height: 1.5;
     padding: .5em;
+    text-indent: 2em;
 }
