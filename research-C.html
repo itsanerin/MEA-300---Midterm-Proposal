@@ -4,14 +4,20 @@
 
 
 <head>
-    <title> Erin Brady </title>
-    <link href="bootstrap-grid.css" rel="stylesheet" />
+    <title> Erin Brady Midterm</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.js"></script>
     <link href="style.css" rel="stylesheet" />
+
     <style>
         @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
-
     </style>
+
     <meta charset="utf-8">
+
 </head>
 
 
@@ -19,46 +25,77 @@
 
 <body>
 
-    <h1> MMP 200 Midterm Proposal </h1>
+    <h1> MMP 200 Midterm </h1>
 
-    <nav class="nav" id="myTopnav">
-        <ul>
-            <li> <a href="index.html">Challenge Statement</a> </li>
-            <li> <a href="survey.html">Survey the Field</a> </li>
 
-            <li> <a style="background: #595959;">Research &#8628;</a>
-                <ul>
-                    <a href="research-A.html">Research Site A</a>
-                    <a href="research-B.html">Research Site B</a>
-                    <a href="research-C.html" style="background: #595959;">Research Site C</a>
-                </ul>
-            </li>
+    <nav class="navbar navbar-expand-md">
+        <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <li> <a href="goals-challenges.html">Goals & Challenges</a> </li>
-            <li> <a href="works-cited.html">Works Cited</a> </li>
-            <!--    <li> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"> </i></a></li> -->
-        </ul>
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Challenge Statement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="survey.html">Survey the Field</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Research Sites
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="research-A.html">Research Site A</a></li>
+                        <li><a href="research-B.html">Research Site B</a></li>
+                        <li><a href="research-C.html">Research Site C</a></li>
+                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="works-cited.html">Works Cited</a>
+                </li>
+            </ul>
+        </div>
     </nav>
+
 
     <h2>Research Site C</h2>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-sm">
-                <img src="images/placeholder.png" class="img-fluid" />
-            </div>
-            <div class="col-sm">
-                <img src="images/placeholder.png" class="img-fluid" />
+
+                <p>A parallax scroll effect is something I'd like to create, but I'm not sure what the best way is to implement it. I found this article to be extremely helpful: "The Problem With Long-Scroll, Single Page Websites" by Walker Sands Digital. </p>
+                <img src="images/parallax1.JPG" class="img-fluid" />
             </div>
         </div>
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-sm">
-                <div class="text">
-
-                    <p>Since J. Black identifies as an Indie Blues musician, my third research site is <a href="https://www.makingascene.org/category/on-the-scene/blues-scene/" target="_blank">Making a Scene</a>, the official website of the independent music magazine of the same name. It calls itself "the #1 resource for the independent artist and the fans that love them." It lives up to this by featuring news, podcasts, interviews, information, and advertising for all things in the independent music scene, and even has its own section for the Indie Blues genre. </p>
-
-                </div>
+                <p>In order to follow the advice of this article (point #1), I decided to only have one page on my website with parallax scroll. I think the Bio is the best page for this, because I wanted to use something other than a grid to display the information, and I think a summarized "life story" is the perfect thing to encourage readers to scroll to the bottom of the page (point #2).</p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-sm">
+                <img src="images/new/bio-browser-1.JPG" class="img-fluid" />
+            </div>
+            <div class="col-sm">
+                <img src="images/new/bio-browser-2.JPG" class="img-fluid" />
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-sm">
+                <img src="images/new/bio-browser-3.JPG" class="img-fluid" />
+            </div>
+            <div class="col-sm">
+                <img src="images/new/bio-browser-4.JPG" class="img-fluid" />
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-sm">
+                <img src="images/new/bio-browser-5.JPG" class="img-fluid" />
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-sm">
+                <p>The most significant "call to action" for users viewing the site are the social media links for J. Black to gain more social media followers. Rather than leave the links at the bottom of this one page (as I had done in the original site), I decided to add his social media links up onto the right side of the navbar as well. This way, his links will be one of the first things that users can see on every web page.</p>
             </div>
         </div>
     </div>
